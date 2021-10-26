@@ -458,4 +458,7 @@ body{
   .contact__wrapper{
     margin: 0;
   }
+  .content__info{
+    width: 100%;
+  }
 }
