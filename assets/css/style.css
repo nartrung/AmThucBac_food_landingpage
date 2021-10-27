@@ -424,6 +424,9 @@ body{
   .address__map{
     width: 100%;
   }
+  .food{
+    height: auto;
+  }
 }
 @media(max-width: 768px){
   #navbar__toggle{
@@ -454,6 +457,9 @@ body{
   }
   .address__map{
     min-width: 360px;
+  }
+  .contact__element{
+    width: 100%;
   }
   .contact__wrapper{
     margin: 0;
