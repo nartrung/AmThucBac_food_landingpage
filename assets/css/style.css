@@ -244,7 +244,7 @@ body{
   color: var(--white-color);
 }
 .fa-star{
-  color: gold;
+  color: rgb(238, 255, 0);
 }
 .food{
   height: 450px;
@@ -303,7 +303,7 @@ body{
   margin: 20px 0;
   color: var(--black-color);
 }
-.fa-map-marker{
+.fa-map-marker-alt{
   color:var(--yellow-color)
 }
 .fa-facebook-square{
