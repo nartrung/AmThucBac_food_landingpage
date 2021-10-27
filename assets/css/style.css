@@ -98,7 +98,7 @@ body{
 }
 .navbar__nav__element{
   transition: .3s;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 .navbar__nav__element:hover{
   color:var(--yellow-color);
@@ -269,7 +269,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 50px 20px;
   flex-wrap: wrap;
 }
 .content__info{
