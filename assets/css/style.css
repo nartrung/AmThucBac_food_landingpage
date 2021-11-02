@@ -47,6 +47,7 @@ img {
   --dark-light-yellow:#9e9b8f;
   --price-color:red;
   --nice-yellow:#fdd97d;
+  --dark:rgb(73, 73, 73);
 }
 
 html{
@@ -173,10 +174,35 @@ body{
   transition: 0.5s;
   margin: 20px 0;
 }
-.introduce__logo:hover {
+.active{
+  transition: .5s;
+}
+.active:hover{
   transform: scale(1.08);
   cursor: pointer;
 }
+.logo{
+  display: none;
+}
+.logo.active{
+  display: block;
+  z-index: 2;
+}
+.btn__active{
+  margin-top: 10px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnPre,.btnNext{
+  font-size: 32px;
+  border: 1px solid var(--dark);
+  padding: 5px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
 /* Menu */
 #menu{
   min-height: 100vh;

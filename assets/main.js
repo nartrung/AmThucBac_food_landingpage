@@ -23,7 +23,7 @@ const sr = ScrollReveal({
 sr.reveal('.introduce__content__title',{}); 
 sr.reveal('.introduce__content__des',{delay: 200}); 
 sr.reveal('.introduce__content__btn',{delay: 300}); 
-sr.reveal('.logo',{delay: 400}); 
+sr.reveal('.logo.active',{delay: 400}); 
 /*SCROLL MENU*/
 sr.reveal('.menu__title',{}); 
 sr.reveal('.food__box',{delay: 200}); 
